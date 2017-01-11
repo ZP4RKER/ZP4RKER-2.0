@@ -1,0 +1,56 @@
+body, html {
+  background: url(../img/background.png) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/**
+  Top/Home
+**/
+
+.top {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.top .bar {
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1% 0 1% 0;
+  color: #FFF;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.top .bar h1 {
+  font-family: Raleway;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.top .bar p {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .top .bar h1 {
+    font-size: 35px;
+  }
+}
+
+/**
+  Content
+**/
+
+.content {
+  width: 100%;
+  background-color: #FFF;
+}
