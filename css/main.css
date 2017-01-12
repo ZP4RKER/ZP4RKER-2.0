@@ -47,10 +47,88 @@ body, html {
 }
 
 /**
+  Navigation
+**/
+
+.nav-content {
+	min-height: 64px;
+}
+
+.navbar {
+	background: #FFF;
+	border: none;
+	min-height: 64px;
+}
+
+nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+@media (min-width: 768px) {
+	#navbar {
+	   float:left;
+	   width:100%;
+	   overflow:hidden;
+	   position:relative;
+	}
+
+	#navbar ul {
+	   clear:left;
+	   float:left;
+	   position:relative;
+	   left:50%;
+	   text-align:center;
+	}
+
+	#navbar ul li {
+	   display:block;
+	   float:left;
+	   position:relative;
+	   right:50%;
+	}
+}
+.nav {
+	position: relative;
+}
+
+.nav li a {
+	color: #32373e;
+	font-weight: 700;
+	padding: 22px 35px;
+	-webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.nav li a:hover li, .nav li a:hover,
+.nav li.active, .nav li.active a {
+	background: #32373e;
+	color: #FFF;
+	-webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.navbar-toggle {
+	border: 1px solid#fff;
+	margin-top: 15px;
+}
+
+.navbar-toggle .icon-bar {
+	background: #fff;
+}
+
+/**
   Content
 **/
 
 .content {
   width: 100%;
-  background-color: #FFF;
+  height: 1000px;
+  background-color: #32373e;
 }
