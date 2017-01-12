@@ -115,12 +115,12 @@ nav.affix {
 }
 
 .navbar-toggle {
-	border: 1px solid#fff;
+	border: 1px solid #32373e;
 	margin-top: 15px;
 }
 
 .navbar-toggle .icon-bar {
-	background: #fff;
+	background: #32373e;
 }
 
 /**
