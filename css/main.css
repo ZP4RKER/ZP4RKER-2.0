@@ -55,7 +55,7 @@ body, html {
 }
 
 .navbar {
-	background: #FFF;
+	background: #32373e;
 	border: none;
 	min-height: 64px;
 }
@@ -95,7 +95,7 @@ nav.affix {
 }
 
 .nav li a {
-	color: #32373e;
+	color: #FFF;
 	font-weight: 700;
 	padding: 22px 35px;
 	-webkit-transition: all 300ms ease-out;
@@ -106,8 +106,8 @@ nav.affix {
 
 .nav li a:hover li, .nav li a:hover,
 .nav li.active, .nav li.active a {
-	background: #32373e;
-	color: #FFF;
+	background: #FFF;
+	color: #32373e;
 	-webkit-transition: all 300ms ease-out;
     -moz-transition: all 300ms ease-out;
     -o-transition: all 300ms ease-out;
@@ -115,12 +115,12 @@ nav.affix {
 }
 
 .navbar-toggle {
-	border: 1px solid #32373e;
+	border: 1px solid #FFF;
 	margin-top: 15px;
 }
 
 .navbar-toggle .icon-bar {
-	background: #32373e;
+	background: #FFF;
 }
 
 /**
@@ -130,5 +130,6 @@ nav.affix {
 .content {
   width: 100%;
   height: 1000px;
-  background-color: #32373e;
+  background-color: #FFF;
+  margin-top: -20px;
 }
