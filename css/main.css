@@ -133,3 +133,7 @@ nav.affix {
   background-color: #FFF;
   margin-top: -20px;
 }
+
+.about {
+  width: 100%;
+}
