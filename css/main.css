@@ -1,0 +1,23 @@
+body, html {
+  background-color: #fffee6;
+  height: 100%;
+}
+
+#content {
+  height: 100%;
+}
+
+#content .row {
+  height: 100%;
+}
+
+.profile-container {
+  /*padding-top: 50px;*/
+  height: 100%;
+  margin: auto;
+}
+.profile {
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+}
