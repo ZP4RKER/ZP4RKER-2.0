@@ -30,7 +30,7 @@
 }
 
 .logo-container .logo, .logo-container .brand {
-     -webkit-transition: all .2s;
+    -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s;
     transition: all .2s;
@@ -42,4 +42,26 @@
 
 .wrapper .main .section h1 {
   text-align: center;
+}
+
+.nav li {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.nav li:hover:not(.active) {
+  background-color: rgba(255, 255, 255, 0.025);
+  border-radius: 3px;
+}
+
+.nav li.twitter:hover {
+  color: #00CCFF;
+  background-color: #495156;
+}
+
+.nav li.github:hover {
+  color: #690083;
+  background-color: #495156;
 }
