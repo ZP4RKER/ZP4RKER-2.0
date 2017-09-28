@@ -53,17 +53,15 @@
   margin-right: 2px;
 }
 
-.nav li:hover:not(.active) {
+.nav li:hover:not(.active):not(.twitter):not(.github) {
   background-color: rgba(255, 255, 255, 0.025);
   border-radius: 3px;
 }
 
-.nav li.twitter:hover {
+.twitter:hover {
   color: #00CCFF;
-  background-color: #495156;
 }
 
-.nav li.github:hover {
+.github:hover {
   color: #690083;
-  background-color: #495156;
 }
