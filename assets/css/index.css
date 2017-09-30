@@ -73,25 +73,33 @@
               0 8px 10px -5px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   text-align: center;
-  line-height: 200px;
+  padding: 10px;
+  height: 250px;
+}
+
+.project img {
+  margin-top: 5px;
+  height: 50px;
 }
 
 #portfolio .container .row {
   padding-top: 100px;
 }
 
-#portfolio .row div:nth-child(1) > .project {
-  background: #0094DF;
-}
 
-#portfolio .row div:nth-child(2) > .project {
-  background: #F67700;
-}
+@media only screen and (max-width : 320px) {
+  .logo-container {
+    padding-left: 10px;
+  }
 
-#portfolio .row div:nth-child(3) > .project {
-  background: #BCC3C8;
-}
+  .navbar li {
+    text-align: center;
+  }
 
-#portfolio .row div:nth-child(4) > .project {
-  background: #2ECC71;
+  .project {
+    margin-top: 30px
+  }
+  #portfolio .container .row {
+    padding-top: 0px;
+  }
 }
