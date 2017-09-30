@@ -65,3 +65,33 @@
 .github:hover {
   color: #690083;
 }
+
+
+.project {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+              0 4px 25px 0px rgba(0, 0, 0, 0.12),
+              0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 200px;
+}
+
+#portfolio .container .row {
+  padding-top: 100px;
+}
+
+#portfolio .row div:nth-child(1) > .project {
+  background: #0094DF;
+}
+
+#portfolio .row div:nth-child(2) > .project {
+  background: #F67700;
+}
+
+#portfolio .row div:nth-child(3) > .project {
+  background: #BCC3C8;
+}
+
+#portfolio .row div:nth-child(4) > .project {
+  background: #2ECC71;
+}
