@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard 1</title>
+<svg width="440px" height="248px" viewBox="0 0 440 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>White - Icon</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-1" fill="#FFFFFF">
-            <g id="Group" transform="translate(151.000000, 123.000000)">
-                <polygon id="Polygon-3" points="99 57 198 0 163.6996 57 198 114 99 57 -1.07330811e-13 114 34.294606 57 -1.70530257e-13 8.22675261e-14"></polygon>
-                <polygon id="Polygon-3" transform="translate(98.000000, 156.000000) rotate(-270.000000) translate(-98.000000, -156.000000) " points="98 156 197 99 162.6996 156 197 213 98 156 -1 213 33.294606 156 -1 99"></polygon>
-            </g>
+    <g id="White---Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" fill="#FFFFFF">
+            <path d="M411.481481,1.32071006 L439.259259,1.32071006 L439.259259,28.835503 L439.259259,140.435503 L439.259259,167.950296 L411.481481,167.950296 L328.148148,167.950296 L328.148148,246.532544 L271.037037,246.532544 L271.037037,185.550763 C270.241717,184.005294 269.446407,183.23257 268.651087,183.23257 L175.170152,182.411114 L242.410824,105.194237 C260.572393,86.8706447 270.114382,75.5782964 271.037037,71.3168973 L271.037037,1.32071006 L411.481481,1.32071006 Z M48.8888889,1.46745562 L48.8888889,64.9428865 L50.5289053,67.407255 C109.159785,66.3119746 147.699785,65.7643427 166.150062,65.7643427 C166.696736,65.7643427 166.97007,66.0381587 166.97007,66.5857988 L93.1693317,151.195781 C64.4689012,181.4529 49.7089012,198.703306 48.8888889,202.947517 L48.8888889,246.532544 L0,246.532544 L0,1.46745562 L48.8888889,1.46745562 Z M328.888889,58.6982249 L328.888889,111.526627 L382.222222,111.526627 L382.222222,58.6982249 L328.888889,58.6982249 Z" id="Combined-Shape"></path>
         </g>
     </g>
 </svg>

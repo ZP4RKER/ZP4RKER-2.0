@@ -20,6 +20,8 @@ div {
 img {
     display: block;
     margin: auto;
+    padding: 20px;
+    height: 100px;
 }
 
 h1 {
